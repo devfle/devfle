@@ -1,0 +1,26 @@
+name: Update Readme Level
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 08 * * *'
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout project
+        uses: actions/checkout@v3
+      - name: update markdown file
+        uses: devfle/readme-level-up@main
+        with:
+          github_username: devfle
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: commit markdown file
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "docs: update readme level"
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
