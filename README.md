@@ -15,7 +15,7 @@
 #### My Github level 🎊
 
 <!--README_LEVEL_UP:START-->
-<pre>level: 11  ██████████████████████████░░░░ 85.0%</pre>
+<pre>level: 11  ████████████████████████████░░ 92.27%</pre>
 <pre>💪 1x contribute → 20 experience points
 🌟 1x follower → 25 experience points</pre>
 <!--README_LEVEL_UP:END-->
