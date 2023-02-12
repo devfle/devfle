@@ -6,7 +6,7 @@
 
 🎨 I also like to design software
 
-🐍 At the moment I’m trying to learn python. <br />
+🐍 At the moment I’m trying to learn python with my [Github Level System Project.](https://github.com/devfle/readme-level-up) <br />
 
 🦙 Fun fact: My favorite animals are alpacas. <br />
 
