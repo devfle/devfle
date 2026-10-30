@@ -1,8 +1,11 @@
 ### Hi there 👋
 
 💻 Web developer from Germany, focused on frontend, with 10+ years of experience <br />
+
 🎨 B.A. in UX design – I love combining solid code with user-centered thinking <br />
+
 🌱 Contributing to open source, e.g. WordPress Gutenberg <br />
+
 🦙 Fun fact: My favorite animals are alpacas <br />
 
 <!--README_LEVEL_UP:START-->
